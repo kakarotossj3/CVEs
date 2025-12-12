@@ -1,0 +1,58 @@
+> [Suggested description]
+> An issue in Hitron HI3120 v.7.2.4.5.2b1 allows a local attacker to
+> obtain sensitive information via the Logout option in the index.html
+>
+> ------------------------------------------
+>
+> [Additional Information]
+> Vendor informed about the vulnerability.
+>
+> ------------------------------------------
+>
+> [VulnerabilityType Other]
+> CWE-613: Insufficient Session Expiration
+>
+> ------------------------------------------
+>
+> [Vendor of Product]
+> Hitron
+>
+> ------------------------------------------
+>
+> [Affected Product Code Base]
+> Hitron HI3120 - 7.2.4.5.2b1
+>
+> ------------------------------------------
+>
+> [Affected Component]
+> Logout option in the following address: http://192.168.0.1/webpages/index.html
+>
+> ------------------------------------------
+>
+> [Attack Type]
+> Local
+>
+> ------------------------------------------
+>
+> [Impact Denial of Service]
+> true
+>
+> ------------------------------------------
+>
+> [Impact Information Disclosure]
+> true
+>
+> ------------------------------------------
+>
+> [Attack Vectors]
+> Logout option does not work which can take a user to believe his session has ended, but keep active.
+>
+> ------------------------------------------
+>
+> [Discoverer]
+> Gregory Cardoso
+>
+> ------------------------------------------
+>
+> [Reference]
+> http://hitron.com
